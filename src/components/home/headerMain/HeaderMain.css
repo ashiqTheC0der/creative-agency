@@ -1,0 +1,35 @@
+#header-main {
+    background-color: #FBD062;
+    height: 685px;
+}
+
+#header-main .rightside-content h1{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #111430;
+}
+
+#header-main .rightside-content p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
+
+#header-main .rightside-content button{
+    border: none;
+    border-radius: 5px;
+    width: 170px;
+    height: 45px;
+    color: #fff;
+    background: #111430;
+}
+
+
+#header-main .leftside-content img{
+    width: 624px;
+
+}
