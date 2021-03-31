@@ -1,16 +1,12 @@
 import React from "react";
 import HeaderMain from "../headerMain/HeaderMain";
-import Navber from "../navber/Navber";
-import BrandPartner from "../brandPartner/BrandPartner";
-import Service from "../service/Service";
+import Navber from "../../shared/navber/Navber";
 
 const Header = () => {
   return (
     <header>
       <Navber></Navber>
       <HeaderMain></HeaderMain>
-      <BrandPartner></BrandPartner>
-      <Service></Service>
     </header>
   );
 };

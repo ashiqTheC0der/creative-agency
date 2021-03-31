@@ -1,0 +1,37 @@
+.clinet-part .clinet-card {
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.clinet-part .clinet-card {
+  padding: 20px;
+}
+
+.clinet-part .clinet-card .client-head .img img {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+}
+
+.clinet-part .clinet-card .client-head .head-content {
+  position: relative;
+  left: 80px;
+  bottom: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.clinet-part .clinet-card .client-head .body-content p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.005em;
+  padding-top: 10px;
+}

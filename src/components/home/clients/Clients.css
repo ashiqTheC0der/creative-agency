@@ -1,0 +1,12 @@
+.clinet-part {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.clinet-part h3.cli {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  color: #171b4e;
+  margin-bottom: 70px;
+}

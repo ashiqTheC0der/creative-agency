@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navber.css";
 import Logo from "../../../images/logos/logo.png";
+import { Link } from "react-router-dom";
 
 const Navber = () => {
   return (
@@ -9,11 +10,11 @@ const Navber = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <nav className="navbar container navbar-expand-lg">
-                <div className="container-fluid p-0">
-                  <a className="navbar-brand" href="#">
+              <nav className="navbar container navbar-expand-lg p-0">
+                <div className="container-fluid">
+                  <Link to="/" className="navbar-brand" href="#">
                     <img className="nav-logo" src={Logo} alt="logo" />
-                  </a>
+                  </Link>
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -28,33 +29,40 @@ const Navber = () => {
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav float-start">
                       <li className="nav-item">
-                        <a
+                        <Link
+                          to="/"
                           className="nav-link p-0 active"
                           aria-current="page"
                           href="#"
                         >
                           Home
-                        </a>
+                        </Link>
                       </li>
+
                       <li className="nav-item">
-                        <a className="nav-link p-0" href="#">
+                        <Link to="portfolio" className="nav-link p-0" href="#">
                           Our Portfolio
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link p-0" href="#">
+                        <Link to="ourteam" className="nav-link p-0" href="#">
                           Our Team
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link p-0" href="#">
+                        <Link to="/contact" className="nav-link p-0" href="#">
                           Contact Us
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link p-0" href="#">
+                        <Link to="login" className="nav-link p-0" href="#">
                           Login
-                        </a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link to="/dashborad" className="nav-link p-0" href="#">
+                          Dashborad
+                        </Link>
                       </li>
                     </ul>
                   </div>

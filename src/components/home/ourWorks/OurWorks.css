@@ -1,0 +1,36 @@
+.our-work{
+    padding: 60px 0;
+    background-color: #111430;
+}
+
+.our-work h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    color: #f2f2f2;
+    padding-bottom: 50px;
+}
+
+.our-work .slider-img img{
+    width: 350px;
+    height: 300px;
+}
+
+.our-work .regular ul.slick-dots{
+    bottom: -70px;
+}
+
+.our-work .regular li button{
+    background-color: #242A65;
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+}
+
+.our-work .regular li.slick-active button{
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    background: #FBD062;
+}

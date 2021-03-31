@@ -1,0 +1,52 @@
+.main-logo {
+  padding-top: 100px 0;
+}
+
+.login-page .main-content {
+  width: 570px;
+  border: 1px solid #ababab;
+  border-radius: 4px;
+  padding: 170px 0;
+}
+
+.login-page .main-content button {
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  border-radius: 57px;
+  background: none;
+  height: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.login-page .main-content button img {
+  margin-right: 100px;
+}
+
+.login-page .main-content button span {
+  margin-right: 100px;
+}
+
+.login-page .main-content h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 10px;
+}
+
+.login-page .main-content h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding-bottom: 10px;
+}

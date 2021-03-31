@@ -34,9 +34,11 @@ const Service = () => {
           Provide awesome <span style={{ color: "#7AB259" }}>product</span>
         </h3>
         <div className="row">
-          {servicepart.map((service) => (
+          {
+          servicepart.map((service) => (
             <ServiceCard service={service}></ServiceCard>
-          ))}
+          ))
+          }
         </div>
       </div>
     </section>
