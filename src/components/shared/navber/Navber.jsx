@@ -31,7 +31,7 @@ const Navber = () => {
                       <li className="nav-item">
                         <Link
                           to="/"
-                          className="nav-link p-0 active"
+                          className="nav-link"
                           aria-current="page"
                           href="#"
                         >
@@ -40,27 +40,31 @@ const Navber = () => {
                       </li>
 
                       <li className="nav-item">
-                        <Link to="portfolio" className="nav-link p-0" href="#">
+                        <Link to="portfolio" className="nav-link" href="#">
                           Our Portfolio
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="ourteam" className="nav-link p-0" href="#">
+                        <Link to="ourteam" className="nav-link" href="#">
                           Our Team
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="/contact" className="nav-link p-0" href="#">
+                        <Link to="/contact" className="nav-link" href="#">
                           Contact Us
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="login" className="nav-link p-0" href="#">
+                        <Link to="login" className="nav-link" href="#">
                           Login
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="/dashborad" className="nav-link p-0" href="#">
+                        <Link
+                          to="/dashborad/dashborad"
+                          className="nav-link"
+                          href="#"
+                        >
                           Dashborad
                         </Link>
                       </li>

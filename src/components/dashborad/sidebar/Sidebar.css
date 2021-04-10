@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .sidebar {
   height: 100vh;
+  background-color: white;
 }
 
 .navber {
@@ -19,4 +24,27 @@
 ul {
   list-style: none;
   text-align: justify;
+}
+
+.nav-item .nav-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.nav-item .nav-link:hover {
+  color: #009444;
+}
+
+.logo {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 65px;
+  color: rgba(0, 0, 0, 0.85);
 }

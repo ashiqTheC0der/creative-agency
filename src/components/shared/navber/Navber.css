@@ -1,26 +1,26 @@
-nav{
-    background-color: #FBD062;
-    width: 100%;
+nav {
+  background-color: #fbd062;
+  width: 100%;
 }
-.navbar{
-    font-family: 'Poppins', sans-serif;
+.navbar {
+  font-family: "Poppins", sans-serif;
 }
-.navbar-nav{
-    margin-left: auto;
-}
-
-.navbar .navbar-brand img{
-    width: 150px;
+.navbar-nav {
+  margin-left: auto;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link{
-    text-decoration: none;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 9px;
-    letter-spacing: 0.396px;
-    color: #474747;
-    margin-right: 30px;
+.navbar .navbar-brand img {
+  width: 150px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 9px;
+  letter-spacing: 0.396px;
+  color: #474747;
+  margin-right: 30px;
 }

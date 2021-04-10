@@ -3,6 +3,7 @@ import Navber from "../../shared/navber/Navber";
 import Logo from "../../../images/logos/logo.png";
 import GoogleLogo from "../../../images/logos/google-logo.png";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -33,7 +34,8 @@ const Login = () => {
                   <span>Continue with Google</span>
                 </button>
                 <h4>
-                  Don't have an account? <a href="#">Create an account</a>
+                  Don't have an account?{" "}
+                  <Link to="/login">Create an account</Link>
                 </h4>
               </div>
             </div>

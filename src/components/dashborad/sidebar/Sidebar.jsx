@@ -1,31 +1,41 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <nav
-      className="col-md-5 navber navber-expand d-flex flex-cloumn align-items-start"
-      className="sidebar"
-    >
-      <Link to="/dashborad" className="navber-brand text-light mt-5">
-        <div className="display-5 font-weight-bold">Sidebar</div>
+    <nav className="col-md-5" className="sidebar">
+      <Link to="/dashborad">
+        <div className="text-center logo">Logo Here</div>
       </Link>
-      <ul className="navber-nav d-flex flex-column mt-5 w-100">
-        <li className="nav-item w-100">
-          <Link to="/order" className="nav-link text-light pl-4">
+      <ul>
+        <li className="nav-item">
+          <Link
+            style={{ marginTop: "70px" }}
+            to="/dashborad/order"
+            className="nav-link pt-10"
+          >
             Order
           </Link>
         </li>
-        <li className="nav-item w-100">
-          <Link to="/servicelist" className="nav-link text-light pl-4">
+        <li className="nav-item">
+          <Link to="/dashborad/servicelist" className="nav-link">
             Service List
           </Link>
         </li>
-        <li className="nav-item w-100">
-          <Link to="/review" href="#" className="nav-link text-light pl-4">
+        <li className="nav-item">
+          <Link to="/dashborad/review" href="#" className="nav-link">
             Review
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/dashborad/addService" href="#" className="nav-link">
+            Add Service
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/dashborad/makeAdmin" href="#" className="nav-link">
+            Make Admin
           </Link>
         </li>
       </ul>

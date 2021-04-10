@@ -1,0 +1,36 @@
+.form-control {
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 570px;
+  height: 60px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+}
+
+.cate label {
+  margin-right: 5px;
+  font-family: Poppins;
+}
+
+.cate select {
+  font-family: Poppins;
+  width: 200px;
+  padding: 5px;
+}
+
+.proDe {
+  height: 112px;
+}
+.price {
+  width: 284px;
+  display: inline-block;
+}
+
+.ml {
+  margin-left: 20px;
+}

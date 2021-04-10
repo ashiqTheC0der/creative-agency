@@ -50,10 +50,9 @@ const Footer = () => {
               </form>
             </div>
           </div>
-          <span
-            className="text-center copyright"
-            dangerouslySetInnerHTML={{ __html: "&copyashiqthecoder 2021" }}
-          />
+          <span className="text-center copyright">
+            copyright ashiqthecoder {new Date().getFullYear()}
+          </span>
         </div>
       </div>
     </footer>
